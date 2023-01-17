@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock %}
+{% block content %}
+<main>
+  
+<section id="invite">
+  <div class="container">
+     
+    <h1>Invite CMB Now!</h1>
+    <p>Bring that "communist" feel</p>
+        
+    <button class="btn btn-danger invite-button"><a href="/home" style="color:#FFD700;, background-color: red;">Invite!</a></button>
+
+    
+  <div class = "content-class">
+
+    <h2 class="featurette-heading-logo">Here are a few key features...</h2>
+  
+   <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Communist Point System!</h2>
+            <p class="lead">Work or beg to earn communist points! The higher your communist points, the lower the chance of you being sent to Re-education camp. Pro tip: Dont allow your communist points to go below 100!</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="../static/assets/credit.png" alt="Communist economy system.">
+
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">"Re-education camps"</h2>
+            <p class="lead">This is where you go if your communist points are below 100. You will be given 5 questions, you need to answer at least 4 of them correct to get removed from the camp.Try not to come here!</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src="../static/assets/Re-education.png" alt="Re-education camp image.">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Memes!</h2>
+            <p class="lead">We stole a meme commands. We need to re work it but hey, its still cool! Credit to whoever made it. There are a large variety of memes (which we did not create of course)!</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="../static/assets/meme.png" alt="Stolen Meme Command image.">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+
+  <script>
+  document.getElementById("home").className += " active";
+</script>
+
+
+
+
+
+</main>
+{% endblock %}
+
+
+  

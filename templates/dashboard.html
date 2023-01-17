@@ -1,0 +1,59 @@
+{% extends "base.html" %} {% block title %}About{% endblock %} {% block content %}
+
+<div class="container stats">
+  <h1 class = "card title text-center">Welcome Back <span style =  "color:red;"> {{username}} </span></h1>
+  <h5 class = "text-center">These are your stats</h5>
+ <div class="row" style="padding: 20px;">
+    <div class = "col-sm-4 card text-center" style = "font-size:30px;,padding-right: 100px;">
+  <p>Social Credit: {{credit}}</p>
+    </div>
+   <div class = "col-sm-4 card text-center" style = "font-size:30px;,padding-right: 100px;">
+  <p>Job: {{job}}</p>
+    </div>
+   <div class = "col-sm-4 card text-center" style = "font-size:30px;">
+  <p>Salary: {{salary}}</p>
+    </div>
+  
+
+ </div>
+
+
+</div>
+
+
+<div class="container-fluid d-flex justify-content-center servers" style="">
+	<div class="row" >
+		{% for guild in guilds %}
+		<div class="col-lg-4">
+      <a class = "link" href="/dashboard/{{guild.id}}">
+			<div class="card " >
+        
+				<div class="card-body text-center">
+          {% if guild.icon_url is none %}
+           <img src="https://cdn.discordapp.com/attachments/884935608697503754/942198576275148821/HD-wallpaper-black-white-discord-white-logo-black-logo.jpg" class="rounded-circle" width="100" height="100">
+          {% else %}
+            <img src={{guild.icon_url}} class="rounded-circle" width="100" height="100">
+          {% endif %}
+                    <h5 class="mt-2 mb-1">{{guild.name}}</h5> 
+                       
+                </div>
+            </div>
+          </a>
+        </div>
+    {% endfor %}
+</div>
+</div>
+        
+
+
+
+
+
+
+
+<script>
+	document.getElementById("dashboard").className += " active";
+
+</script>
+
+{%endblock%}

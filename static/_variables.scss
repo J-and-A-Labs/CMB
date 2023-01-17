@@ -1,0 +1,20 @@
+
+$primary: #36393F;
+$secondary: #FFD700;
+$danger: #FF0000;
+$body-bg: #36393F;
+$body-color: $warning;
+$border-radius: 1rem;
+$border-radius-sm: 0.2rem;
+$navbar-padding-y: $spacer/1.5;
+$navbar-nav-link-padding-x: 2rem;
+$navbar-toggler-padding-y: 0.4rem;
+$navbar-toggler-padding-x: 1rem;
+$navbar-dark-color: $yellow;
+$navbar-dark-hover-color: #FFD700;
+$navbar-dark-active-color: #FF0000;
+
+$navbar-dark-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#FF0000' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-dark-toggler-border-color: #36393F;
+$font-size-lg: $font-size-base * 1.5;
+$jumbotron-bg: #36393F;

@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock %}
+{% block content %}
+<div class = "about-us"><h1>Meet Our Team...</h1></div>
+
+<div class="container-fluid d-flex justify-content-center mt-100">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-body text-center"> <img src="../static/assets/astro.jpg" class="rounded-circle" width="200" height="200">
+                    <h5 class="card-title mt-2 mb-1">Mr Yeety</h5> <span class="fs-2 mb-3 font-weight-bold">Python and Web Developer</span>
+                    <p class="mb-3 mt-3">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"</p>
+                       <a href="#" class="btn btn-danger">Profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-body text-center"> <img src="../static/assets/ECO.png" class="rounded-circle" width="200" height="200">
+                    <h5 class="card-title mt-2 mb-1">ECO3X10C</h5> <span class="fs-2 mb-3 font-weight-bold">Python and Web Developer</span>
+                    <p class="mb-3 mt-3">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"</p>
+                     <a href="#" class="btn btn-danger">Profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-body text-center"> <img src="../static/assets/zartash.jpg" class="rounded-circle" width="200" height="200">
+                    <h5 class="card-title mt-2 mb-1">A NAME CHANGE</h5> <span class="fs-2 mb-3 font-weight-bold">BIG MAN SPRINGS</span>
+                    <p class="mb-3 mt-3">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"</p>
+                    <a href="#" class="btn btn-danger">Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+  document.getElementById("about").className += " active";
+</script>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+     

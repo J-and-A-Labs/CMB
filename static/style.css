@@ -1,0 +1,190 @@
+
+
+
+nav .login-button{
+  color: #FF0000;
+}
+
+nav .login-button:hover{
+  background-color: #36393F;
+  color:#FF0000;
+  border-width: 2px;
+  border-color: #FFD700;
+
+}
+
+
+
+/*Invite Section*/
+
+#invite {
+   padding-right: 1%;
+   padding-left: 1%;
+    min-height: 400px;
+    text-align: center;
+    color: red;
+
+}
+
+#invite h1 {
+    margin-top: 125px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#invite p {
+    font-size: 20px;
+    color: #FFD700;
+}
+
+#invite button{
+  margin-top: 15px;
+  width: 80%;
+  height: 50px;
+  background-color: #FFD700;
+  color: red;
+}
+
+
+#invite button:hover{
+  background-color: #36393F;
+  color:#FFD700;
+  border-width: 2px;
+  border-color: #FF0000;
+  
+
+}
+
+#invite button{
+  font-size: 20px;
+  color: rgb(156, 154, 138);
+
+}
+
+footer{
+  margin-top: 100px;
+  padding-bottom: 0.1%;
+  background-color: #2F3136;
+}
+
+
+
+
+nav {
+  background-color: #2F3136;
+}
+.card-columns {
+  padding-top: 1%;
+}
+
+.Features-Content {
+  color:#FFD700;
+  padding-top: 5%;
+  font-size: 100px;
+  padding-bottom: 5%;
+}
+
+.server-item:hover {
+  color:#FFD700;
+}
+
+.content-class {
+  padding-top: 5%
+}
+
+.feature-logo {
+  color:#FFD700;
+}
+
+.featurette-heading-logo {
+  padding-top: 10%;
+  color:#FFD700;
+  padding-bottom: 2%;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2F3136;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #40444B;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #40444B;
+}
+
+
+
+
+
+.avatar {
+  border: 0.3rem solid rgba(#fff, 0.3);
+  margin-top: -6rem;
+  margin-bottom: 1rem;
+  max-width: 9rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ 
+
+ .about-us {
+   padding-top: 10%;
+   text-align: center;
+   padding-bottom: 1%;
+ }
+
+
+.card{
+  margin-top: 20px;
+}
+
+
+.card .btn{
+  color: #FFD700;
+}
+
+.card .btn:hover{
+  background: #2F3136;
+  outline: #FFD700;
+  color: #FFD700;
+  
+}
+
+
+ .dash .card{
+  background-color: #36393F;
+  height: 200;
+  width: 200;
+
+}
+
+
+.stats{
+  margin-right: 50%;
+
+}
+
+@media only screen and (max-width: 200px) {
+  .servers {
+    margin-left: 100px;
+  }
+}
+
